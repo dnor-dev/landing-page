@@ -1,9 +1,6 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import MobileMenu from "./MobileMenu";
-
-import logo_1 from "@/assets/img/logo/SPDX Logo.png";
 
 const Sidebar = ({ isActive, setIsActive }: any) => {
   return (
@@ -15,7 +12,11 @@ const Sidebar = ({ isActive, setIsActive }: any) => {
           </div>
           <div className="nav-logo">
             <Link href="/">
-              <Image src={logo_1} alt="Logo" className="logo-nav-mobile" />
+              <img
+                src="/assets/img/logo/SPDX-Logo.png"
+                alt="Logo"
+                className="logo-nav-mobile"
+              />
             </Link>
           </div>
           <div className="menu-outer">

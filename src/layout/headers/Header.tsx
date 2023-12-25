@@ -2,12 +2,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import UseSticky from "../../hooks/UseSticky";
-import Image from "next/image";
 import NavMenu from "./Menu/NavMenu";
 import Sidebar from "./Menu/Sidebar";
 import HeaderOffcanvas from "./Menu/HeaderOffcanvas";
-
-import logo_1 from "@/assets/img/logo/SPDX Logo.png";
 
 const Header = () => {
   const { sticky } = UseSticky();
@@ -30,7 +27,11 @@ const Header = () => {
                   <nav className="menu-nav">
                     <div className="logo">
                       <Link href="/">
-                        <Image src={logo_1} alt="Logo" className="logo" />
+                        <img
+                          src="/assets/img/logo/SPDX-Logo.png"
+                          alt="Logo"
+                          className="logo"
+                        />
                       </Link>
                     </div>
                     <div className="navbar-wrap main-menu d-none d-lg-flex">
