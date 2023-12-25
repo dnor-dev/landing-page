@@ -15,9 +15,11 @@ const SpunkySale = () => {
             <p>skkeod0dj00sskswppwpsl</p>
             <i className="fa-regular fa-copy"></i>
           </div>
-          <button>
-            Buy SSDX <i className="fa-solid fa-chevron-right"></i>
-          </button>
+          <a href="https://presale.spunkysdx.io/" target="_blank">
+            <button>
+              Buy SSDX <i className="fa-solid fa-chevron-right"></i>
+            </button>
+          </a>
         </div>
 
         <div className="second-section">
@@ -54,7 +56,9 @@ const SpunkySale = () => {
             id="amount"
             placeholder="Enter USDT Amount"
           />
-          <button>Buy SSDX</button>
+          <a href="https://presale.spunkysdx.io/" target="_blank">
+            <button>Buy SSDX</button>
+          </a>
         </div>
       </section>
     </div>

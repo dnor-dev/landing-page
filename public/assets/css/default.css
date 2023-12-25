@@ -1,7 +1,7 @@
 /* Deafult Margin & Padding */
 /*-- Margin Top --*/
 .logo {
-  zoom: 0.4;
+  zoom: 0.38;
   object-fit: cover;
 }
 @media (max-width: 1100px) {
