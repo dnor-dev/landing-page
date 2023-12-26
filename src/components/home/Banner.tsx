@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import bannerShape_2 from "@/assets/img/banner/Mock1.png";
+import bannerShape_2 from "@/assets/img/banner/heroImage.webp";
 
 const Banner = () => {
   return (

@@ -62,15 +62,19 @@ const ChartArea = () => {
             <div className="chart-wrap">
               <div className="chart">
                 <div id="doughnutChart">
-                  {chartData[activeTab] && <Doughnut data={data} />}
+                  {chartData[activeTab] && (
+                    <Doughnut
+                      options={{
+                        maintainAspectRatio: false,
+                        responsive: true,
+                      }}
+                      data={data}
+                    />
+                  )}
                 </div>
+                <p>Token Distrubution</p>
               </div>
               <div className="chart-tab">
-                <ul className="nav nav-tabs" id="myTab" role="tablist">
-                  <li className="nav-item">
-                    <button className={"nav-link"}>Token Distrubution</button>
-                  </li>
-                </ul>
                 <div className="tab-content" id="myTabContent">
                   <div className={`tab-pane fade show active`} id="description">
                     <div className="chart-list">

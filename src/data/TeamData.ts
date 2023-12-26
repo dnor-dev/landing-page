@@ -1,11 +1,11 @@
 import { StaticImageData } from "next/image";
 
-import teamImg_1 from "@/assets/img/team/spunksdx_team_member.jpg";
-import teamImg_2 from "@/assets/img/team/team-member-2.png";
-import teamImg_3 from "@/assets/img/team/team-member-3.png";
-import teamImg_4 from "@/assets/img/team/team-member-4.png";
-import teamImg_5 from "@/assets/img/team/team-member-5.png";
-import teamImg_6 from "@/assets/img/team/team-member-6.png";
+import teamImg_1 from "@/assets/img/team/Six-modified-modified (1).png";
+import teamImg_2 from "@/assets/img/team/one-modified-modified.png";
+import teamImg_3 from "@/assets/img/team/Two-modified-modified.png";
+import teamImg_4 from "@/assets/img/team/Three-modified-modified.png";
+import teamImg_5 from "@/assets/img/team/Four-modified-modified.png";
+import teamImg_6 from "@/assets/img/team/Five-modified-modified.png";
 
 interface DataType {
   id: number;
