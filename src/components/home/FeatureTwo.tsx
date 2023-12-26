@@ -81,7 +81,7 @@ const FeatureTwo = () => {
   return (
     <div>
       <div className="container">
-        <div className="section-title text-center mb-50 mt-50">
+        <div className="section-title text-center mb-50 mt-80">
           <h6>Our Features</h6>
           <h2 className="title">All you need is here</h2>
           <p className="pt-10">Experience an all iin one crypto solution</p>
@@ -92,23 +92,21 @@ const FeatureTwo = () => {
         style={{ backgroundImage: `url(/assets/img/bg/features_bg.png)` }}
       >
         <div className="container">
-          <div className="row justify-content-center">
+          <div className="row justify-content-center g-4 g-md-5">
             {feature_data.map((step) => (
               <div className="col-md-6 col-lg-4 col-12" key={step.id}>
-                <div
-                  className="feat-card"
-                  style={{
-                    border: "2px solid #d63384",
-                  }}
-                >
-                  {step.img}
-                  <h6>{step.title}</h6>
-                  <p>{step.desc}</p>
-                  {step.coming_soon && (
-                    <button>
-                      Coming Soon <i className="fa-solid fa-chevron-right"></i>
-                    </button>
-                  )}
+                <div className="feat-card-cover">
+                  <div className="feat-card">
+                    {step.img}
+                    <h6>{step.title}</h6>
+                    <p>{step.desc}</p>
+                    {step.coming_soon && (
+                      <button>
+                        Coming Soon{" "}
+                        <i className="fa-solid fa-chevron-right"></i>
+                      </button>
+                    )}
+                  </div>
                 </div>
               </div>
             ))}

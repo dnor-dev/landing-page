@@ -1,6 +1,15 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const SpunkySale = () => {
+  const [isCopied, setIsCopied] = useState(false);
+
+  const handleCopy = (text: string) => {
+    setIsCopied(true);
+    navigator.clipboard.writeText(text);
+    setTimeout(() => setIsCopied(false), 3000);
+  };
+
   return (
     <div className="container">
       <section className="spunky_sale">
@@ -12,8 +21,17 @@ const SpunkySale = () => {
             monitor stolen asset on the EVM chain.
           </p>
           <div className="copy">
-            <p>skkeod0dj00sskswppwpsl</p>
-            <i className="fa-regular fa-copy"></i>
+            <p>0x96DE8aF54...1C3036119b6623648580438</p>
+            {isCopied ? (
+              <i className="fa-solid fa-check"></i>
+            ) : (
+              <i
+                className="fa-regular fa-copy"
+                onClick={() =>
+                  handleCopy("0x96DE8aF54...1C3036119b6623648580438")
+                }
+              ></i>
+            )}
           </div>
           <a href="https://presale.spunkysdx.io/" target="_blank">
             <button>

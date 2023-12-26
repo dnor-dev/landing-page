@@ -1467,7 +1467,7 @@ label {
   border-radius: 8px;
   padding: 40px 2rem;
   margin-bottom: 30px;
-  height: 300px;
+  height: 100%;
 }
 
 .features-content .title {
@@ -1492,11 +1492,9 @@ label {
 @media (max-width: 800px) {
   .features-item {
     gap: 1rem;
-    height: fit-content;
   }
 
   .features-img {
-    order: 1;
     margin-bottom: 0px !important;
   }
 }
@@ -1685,6 +1683,10 @@ h6 {
   color: var(--tg-white);
 }
 
+.spunky_sale .second-section a {
+  width: 100%;
+}
+
 .spunky_sale .second-section button {
   border: none;
   border-radius: 2rem;
@@ -1705,23 +1707,33 @@ h6 {
 }
 
 /* Steps */
+.feat-card-cover {
+  background: linear-gradient(
+    270deg,
+    var(--tg-primary-color) 0%,
+    var(--tg-black) 99.23%
+  );
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding: 2px;
+  transition: 0.2s linear;
+}
+
 .feat-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   background: var(--tg-black-alt);
-  border-right: 1px solid rgb(214, 51, 132, 0.4);
-  border-left: 1px solid rgb(214, 51, 132, 0.4);
-  border-top: 1px solid rgb(214, 51, 132, 0.4);
   border-radius: 8px;
   padding: 40px 2rem;
   margin-bottom: 30px;
-  transition: 0.3s linear;
+  height: 100%;
 }
 
-.feat-card:hover {
-  transform: translateY(5px);
+.feat-card-cover:hover {
+  transform: translateY(-5px);
 }
 
 .feat-card .feat-icon {
@@ -1764,6 +1776,7 @@ h6 {
   border-radius: 20px 20px 0 0;
   position: relative;
   overflow: hidden;
+  padding: 5rem 0;
 }
 .features-bg::before {
   content: "";
@@ -1846,6 +1859,11 @@ h6 {
 .features-shape-wrap img:nth-child(2) {
   right: 9%;
   bottom: 0%;
+}
+@media (max-width: 800px) {
+  .features-bg {
+    padding: 1rem 0;
+  }
 }
 
 /*=============================

@@ -54,16 +54,18 @@ const Steps = () => {
           </p>
         </div>
 
-        <div className="row">
+        <div className="row g-4 g-md-5">
           {steps_data.map((step) => (
             <div className="col-md-6 col-lg-4 col-12" key={step.id}>
-              <div className="feat-card">
-                {step.img}
-                <h6>{step.title}</h6>
-                <p>{step.desc}</p>
-                <button>
-                  Get started <i className="fa-solid fa-chevron-right"></i>
-                </button>
+              <div className="feat-card-cover">
+                <div className="feat-card">
+                  {step.img}
+                  <h6>{step.title}</h6>
+                  <p>{step.desc}</p>
+                  <button>
+                    Get started <i className="fa-solid fa-chevron-right"></i>
+                  </button>
+                </div>
               </div>
             </div>
           ))}

@@ -63,19 +63,21 @@ const FeatureOne = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row g-4 g-md-5">
           {feature_data.map((item) => (
-            <div key={item.id} className="col-md-6 col-lg-4 col-xl-3 col-12">
-              <div className="features-item">
-                <div className="features-img">
-                  {/* <Image src={item.img} alt="" /> */}
-                  {item.img}
-                </div>
-                <div className="features-content">
-                  <h2 className="title">
-                    <Link href="#!">{item.title}</Link>
-                  </h2>
-                  <p>{item.desc}</p>
+            <div className="col-md-6 col-lg-4 col-xl-3 col-12" key={item.id}>
+              <div className="feat-card-cover">
+                <div className="features-item">
+                  <div className="features-img">
+                    {/* <Image src={item.img} alt="" /> */}
+                    {item.img}
+                  </div>
+                  <div className="features-content">
+                    <h2 className="title">
+                      <Link href="#!">{item.title}</Link>
+                    </h2>
+                    <p>{item.desc}</p>
+                  </div>
                 </div>
               </div>
             </div>

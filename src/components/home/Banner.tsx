@@ -20,9 +20,8 @@ const Banner = () => {
               SpunkySDX leverages an inbuilt advanced Artificial
               Intelligence(AI)- based tool to track stolen cryptocurrency
               tokens/coins across different Ethereum Virtual Machine (EVM)
-              compatible blockchains, from Decentralized wallets to
-              <br />
-              Centralized Exchanges (CEX).
+              compatible blockchains, from Decentralized wallets to Centralized
+              Exchanges (CEX).
             </p>
 
             <ul className="list-wrap header-action">

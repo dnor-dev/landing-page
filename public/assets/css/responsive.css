@@ -421,7 +421,7 @@
   .features-item {
     padding: 30px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .features-content {
     width: 100%;
