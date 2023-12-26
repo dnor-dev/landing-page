@@ -1713,6 +1713,7 @@ h6 {
     var(--tg-primary-color) 0%,
     var(--tg-black) 99.23%
   );
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   width: 100%;
   height: 100%;
   border-radius: 8px;
@@ -1734,6 +1735,7 @@ h6 {
 
 .feat-card-cover:hover {
   transform: translateY(-5px);
+  box-shadow: 10px 40px 35px rgba(0, 0, 0, 0.1);
 }
 
 .feat-card .feat-icon {
