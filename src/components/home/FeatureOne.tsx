@@ -57,7 +57,7 @@ const FeatureOne = () => {
               <h6>Why Choose Us</h6>
               <h2 className="title">Safe, guaranteed, and easy to use</h2>
               <p className="pt-10">
-                Join the teeming population of people using SpunkySDX to track
+                Join the teaming population of people using SpunkySDX to track
                 assets
               </p>
             </div>

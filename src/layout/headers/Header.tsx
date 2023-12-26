@@ -28,9 +28,9 @@ const Header = () => {
                     <div className="logo">
                       <Link href="/">
                         <img
-                          src="/assets/img/logo/SPDX-Logo.png"
+                          src="/assets/img/logo/spdx-logo.svg"
                           alt="Logo"
-                          className="logo"
+                          className="logo g-0"
                         />
                       </Link>
                     </div>
@@ -39,14 +39,14 @@ const Header = () => {
                     </div>
                     <div className="header-action">
                       <ul className="list-wrap">
-                        <li className="header-login">
+                        {/* <li className="header-login">
                           <Link href="/">Login</Link>
-                        </li>
+                        </li> */}
                         <li className="header-signup">
-                          <Link href="/">Signup</Link>
+                          <Link href="https://dapp.spunkysdx.io/">Launch App</Link>
                         </li>
                       </ul>
-                      <div className="offcanvas-menu">
+                      {/* <div className="offcanvas-menu">
                         <a
                           // onClick={() => setOffCanvas(true)}
                           style={{ cursor: "pointer" }}
@@ -57,7 +57,7 @@ const Header = () => {
                         >
                           <i className="feat-icon fa-solid fa-rocket"></i>{" "}
                         </a>
-                      </div>
+                      </div> */}
                     </div>
 
                     <div

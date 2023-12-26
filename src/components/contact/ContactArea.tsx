@@ -19,7 +19,7 @@ const contact_data: DataType[] = [
       id: 2,
       icon: "fas fa-phone-alt",
       title: "Contact",
-      info: (<><Link href="tel:0123456789">+88(0) 555-0108</Link> <br /> <Link href="tel:0123456789">+88(0) 555-01117</Link></>),
+      info: (<><Link href="tel:0123456789">spdx</Link> <br /> <Link href="tel:0123456789">+88(0) 555-01117</Link></>),
    },
    {
       id: 3,

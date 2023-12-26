@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo_1 from "@/assets/img/logo/logo.png";
+import logo_1 from "@/assets/img/logo/logo.svg";
 
 const HeaderOffcanvas = ({ offCanvas, setOffCanvas }: any) => {
    return (
