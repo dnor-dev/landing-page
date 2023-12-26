@@ -1,8 +1,10 @@
 "use client";
+import { useState, useRef, useEffect, useCallback } from "react";
 import team_data from "@/data/TeamData";
 import Image from "next/image";
 import Slider from "react-slick";
 import Link from "next/link";
+// import { TeamDataType } from "@/data/TeamData";
 
 const settings = {
   dots: false,
@@ -65,7 +67,53 @@ const settings = {
   ],
 };
 
+// type IItem = {
+//   item: TeamDataType;
+// };
+
+// const TeamComponent = ({ item }: IItem) => {
+
+//   return (
+//     <div className="team-item">
+//       <div className="team-thumb">
+//         <Image src={item.img} alt="" />
+//         <div className="social-links">
+//           <a href={item.linkedIn} className="team-social">
+//             <i className="fab fa-linkedin-in"></i>
+//           </a>
+//           <a href={item.twitter} className="team-social">
+//             <i className="fab fa-twitter"></i>
+//           </a>
+//         </div>
+//       </div>
+//       <div className="team-content">
+//         <h2 className="title" onClick={() => setShowDesc(!showDesc)}>
+//           {item.title}
+//         </h2>
+//         {showDesc && <span>{item.desc}</span>}
+//         {!showDesc && <span>{item.profession}</span>}
+//       </div>
+//     </div>
+//   );
+// };
+
 const Team = () => {
+  const [showDesc, setShowDesc] = useState("");
+
+  const clickRef = useRef<any>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: any) => {
+      if (clickRef.current && !clickRef.current.contains(event.target)) {
+        setShowDesc("");
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside, false);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside, false);
+    };
+  }, [clickRef]);
+
   return (
     <section
       className="team-area team-bg"
@@ -82,7 +130,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="team-item-wrap">
+        <div className="team-item-wrap" ref={clickRef}>
           <Slider {...settings} className="row team-active g-0">
             {team_data.map((item) => (
               <div key={item.id} className="col">
@@ -99,10 +147,17 @@ const Team = () => {
                     </div>
                   </div>
                   <div className="team-content">
-                    <h2 className="title">{item.title}</h2>
-                    <span>{item.profession}</span>
+                    <h2
+                      className="title"
+                      onClick={() => setShowDesc(item.title)}
+                      ref={clickRef}
+                    >
+                      {item.title}
+                    </h2>
+                    {showDesc === item.title && <span>{item.desc}</span>}
+                    {showDesc !== item.title && <span>{item.profession}</span>}
                   </div>
-                </div>
+                </div>{" "}
               </div>
             ))}
           </Slider>

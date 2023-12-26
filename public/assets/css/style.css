@@ -2171,6 +2171,7 @@ h6 {
   text-align: center;
   cursor: pointer;
   margin: 0 10px;
+  z-index: 9999;
 }
 .team-thumb {
   position: relative;
@@ -2219,6 +2220,10 @@ h6 {
 .team-content .title {
   font-size: 22px;
   margin-bottom: 5px;
+}
+.team-content .title:hover {
+  color: var(--tg-primary-color);
+  transition: all ease-out 300ms;
 }
 .team-content span {
   line-height: 1.3;
