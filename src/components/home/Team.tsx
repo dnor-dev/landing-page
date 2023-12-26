@@ -18,7 +18,7 @@ const settings = {
     {
       breakpoint: 1400,
       settings: {
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
         centerPadding: "70px",
