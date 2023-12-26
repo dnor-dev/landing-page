@@ -1587,6 +1587,10 @@ h2 {
   padding: 10px 1rem;
   width: fit-content;
 }
+
+.designedby p{
+ font-size: small;
+}
 .text-lg {
   font-size: 20px;
 }
