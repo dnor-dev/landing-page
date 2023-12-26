@@ -130,7 +130,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="team-item-wrap" ref={clickRef}>
+        <div className="team-item-wrap">
           <Slider {...settings} className="row team-active g-0">
             {team_data.map((item) => (
               <div key={item.id} className="col">
@@ -146,11 +146,13 @@ const Team = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="team-content">
+                  <div
+                    className="team-content"
+                    onClick={() => setShowDesc(item.title)}
+                  >
                     <h2
                       className="title"
                       onClick={() => setShowDesc(item.title)}
-                      ref={clickRef}
                     >
                       {item.title}
                     </h2>
