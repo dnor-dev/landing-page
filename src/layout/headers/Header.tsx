@@ -40,10 +40,10 @@ const Header = () => {
                     <div className="header-action">
                       <ul className="list-wrap">
                         <li className="header-login">
-                          <Link href="/login">Login</Link>
+                          <Link href="/">Login</Link>
                         </li>
                         <li className="header-signup">
-                          <Link href="/signup">Signup</Link>
+                          <Link href="/">Signup</Link>
                         </li>
                       </ul>
                       <div className="offcanvas-menu">

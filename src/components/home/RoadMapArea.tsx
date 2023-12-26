@@ -12,9 +12,10 @@ const roadmap_data: DataTyfe[] = [
   {
     id: 1,
     roadmap_title: "Phase 1",
-    title: "Project Idea",
+    title: "Q4 2022 - Q1 2023",
     desc: (
       <div>
+        <p>Project Idea</p>
         <p>Assemble team</p>
         <p>Website</p>
         <p>Social Media</p>
@@ -24,21 +25,23 @@ const roadmap_data: DataTyfe[] = [
   {
     id: 2,
     roadmap_title: "Phase 2",
-    title: "Strategic Partnerships",
+    title: "Q2 2023",
     desc: (
       <div>
-        <p>Staking Platform</p>
-        <p>Task for reward launch</p>
         <p>App launch</p>
+        <p>Task for reward launch</p>
+        <p>Staking Platform</p>
+        <p>Strategic Partnerships</p>
       </div>
     ),
   },
   {
     id: 3,
     roadmap_title: "Phase 3",
-    title: "Tokenomics",
+    title: "Q3 2023",
     desc: (
       <div>
+        <p>Tokenomics</p>
         <p>White paper</p>
         <p>Platform Development</p>
         <p>Smart contract and Audit</p>
@@ -48,7 +51,7 @@ const roadmap_data: DataTyfe[] = [
   {
     id: 4,
     roadmap_title: "Phase 4",
-    title: "Launch",
+    title: "Q4 2023",
     desc: (
       <div>
         <p>Public Sale</p>
@@ -59,13 +62,27 @@ const roadmap_data: DataTyfe[] = [
   {
     id: 5,
     roadmap_title: "Phase 5",
-    title: "Phase 5",
+    title: "Q4 2023 - Q1 2024",
     desc: (
       <div>
-        <p>CoinGecko</p>
-        <p>Token Buy</p>
-        <p>15,000 holders</p>
-        <p>Ongoing</p>
+        <p>CoinGecko and CMC listing</p>
+        <p>Token buyback and burn</p>
+        <p>15,000 holders and CEX listing</p>
+        <p>Ongoing Partnership devlopment</p>
+      </div>
+    ),
+  },
+  {
+    id: 6,
+    roadmap_title: "Phase 6",
+    title: "Q2 2024",
+    desc: (
+      <div>
+        <p>Native blockchain creation</p>
+        <p>Launch of Devnet</p>
+        <p>Devnet</p>
+        <p>Testnet</p>
+        <p>Mainnet launch</p>
       </div>
     ),
   },
