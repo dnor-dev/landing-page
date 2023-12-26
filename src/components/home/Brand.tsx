@@ -2,24 +2,10 @@
 import Image, { StaticImageData } from "next/image";
 import Slider from "react-slick";
 
-import brandImg_1 from "@/assets/img/brand/brand_img01.png";
-import brandImg_2 from "@/assets/img/brand/brand_img02.png";
-import brandImg_3 from "@/assets/img/brand/brand_img03.png";
-import brandImg_4 from "@/assets/img/brand/brand_img04.png";
-import brandImg_5 from "@/assets/img/brand/brand_img05.png";
-import brandImg_6 from "@/assets/img/brand/brand_img06.png";
-import brandImg_7 from "@/assets/img/brand/brand_img07.png";
+import brandImg_1 from "@/assets/img/brand/partner1.webp";
+import brandImg_2 from "@/assets/img/brand/partner2.webp";
 
-const brand_data: StaticImageData[] = [
-  brandImg_1,
-  brandImg_2,
-  brandImg_3,
-  brandImg_4,
-  brandImg_5,
-  brandImg_6,
-  brandImg_7,
-  brandImg_4,
-];
+const brand_data: StaticImageData[] = [brandImg_1, brandImg_2];
 
 const settings = {
   dots: false,
@@ -27,13 +13,13 @@ const settings = {
   speed: 1000,
   autoplay: true,
   arrows: false,
-  slidesToShow: 7,
-  slidesToScroll: 2,
+  slidesToShow: 1,
+  slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 1200,
       settings: {
-        slidesToShow: 5,
+        slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
       },
@@ -41,14 +27,14 @@ const settings = {
     {
       breakpoint: 992,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
       },
     },
     {
       breakpoint: 767,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
       },

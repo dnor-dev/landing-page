@@ -1397,7 +1397,7 @@ label {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
-  padding: 45px 0;
+  padding: 25px 0;
 }
 .brand-item-wrap::after,
 .brand-item-wrap::before {
@@ -1425,7 +1425,7 @@ label {
   justify-content: center;
 }
 .brand-item img {
-  opacity: 0.5;
+  opacity: 0.8;
   cursor: pointer;
   transition: 0.3s linear;
 }

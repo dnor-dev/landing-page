@@ -81,7 +81,7 @@ const FeatureTwo = () => {
   return (
     <div>
       <div className="container">
-        <div className="section-title text-center mb-50 mt-80">
+        <div className="section-title text-center mb-20 mt-80">
           <h6>Our Features</h6>
           <h2 className="title">All you need is here</h2>
           <p className="pt-10">Experience an all iin one crypto solution</p>
