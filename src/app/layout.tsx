@@ -27,7 +27,7 @@ export default function RootLayout({
         <meta name="description" content="Spunky SDX" />
         <link
           rel="icon"
-          href="/assets/img/logo/SPDX-Logo.png"
+          href="/assets/img/logo/SpunkySDX_Logo.svg"
           type="image/png"
         />
         <link
