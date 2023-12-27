@@ -123,10 +123,7 @@ const Team = () => {
         <div className="row g-0">
           <div className="col-12">
             <div className="section-title text-center mb-50 mt-50">
-              <h6>Our Team</h6>
-              <h2 className="title">
-                As we grow, new members <br /> would be added
-              </h2>
+              <h6 className="title">Team</h6>
             </div>
           </div>
         </div>

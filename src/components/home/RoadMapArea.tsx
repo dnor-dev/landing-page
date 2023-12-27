@@ -155,8 +155,13 @@ const RoadMapArea = () => {
         <div className="row g-0">
           <div className="col-lg-12">
             <div className="section-title text-center mb-70">
-              <h2 className="title">Our Roadmap</h2>
+              <h2 className="title">SpunkyMap</h2>
+              <p className="p-3 mb-20 text-4xl ">Our team of blockchain specialists are constantly pushing for the best products. <br />
+                Our roadmap is designed to keep you in the loop as we make progress.</p>
             </div>
+
+
+
           </div>
         </div>
         <Slider {...settings} className="row roadMap-active">

@@ -81,7 +81,14 @@ const Footer = () => {
                     they can also go down. Any profits made from investments are
                     also subject to capital gains tax.
                   </p>
+
+                  <p className="mt-10 pt-10">Designed by: &nbsp; 
+                <a href="https://mftech.com.ng" target="_blank">Mftech</a>
+              </p>
                 </div>
+
+            
+
               </div>
             </div>
           </div>
