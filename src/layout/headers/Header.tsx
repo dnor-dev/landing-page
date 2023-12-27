@@ -43,7 +43,9 @@ const Header = () => {
                           <Link href="/">Login</Link>
                         </li> */}
                         <li className="header-signup">
-                          <Link href="https://dapp.spunkysdx.io/">Launch App</Link>
+                          <Link href="https://dapp.spunkysdx.io/">
+                            Launch App
+                          </Link>
                         </li>
                       </ul>
                       {/* <div className="offcanvas-menu">

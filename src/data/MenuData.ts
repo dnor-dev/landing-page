@@ -30,12 +30,6 @@ const menu_data: MenuItem[] = [
     link: "/#roadMap",
   },
   {
-    id: 5,
-    has_dropdown: false,
-    title: "Investors Pitch",
-    link: "/#",
-  },
-  {
     id: 6,
     has_dropdown: false,
     title: "FAQ",

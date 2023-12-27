@@ -12,7 +12,7 @@ const Banner = () => {
       <div className="container flex-banner">
         <div className="row justify-content-center">
           <div className="banner-content text-center">
-            <h2 className="title">
+            <h2 className="title mt-20">
               A Decentralized <br /> <span>AI Asset Tracking</span> <br />{" "}
               Platform
             </h2>
@@ -26,10 +26,11 @@ const Banner = () => {
 
             <ul className="list-wrap header-action">
               <li className="header-login">
-                <Link href="/Spunkysdx_Whitepaper.pdf">WhitePaper</Link>
+                {" "}
+                <Link href="/investors-pitch">Investors Pitch</Link>
               </li>
               <li className="header-signup">
-                <Link href="/#roadMap">Spunkymap</Link>
+                <Link href="/business-model">Business Model Canvas</Link>
               </li>
             </ul>
           </div>
