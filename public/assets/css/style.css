@@ -1516,7 +1516,6 @@ label {
 
 /* SpunkySale */
 .spunky_sale {
-  border: 1px solid var(--tg-primary-color);
   border-radius: 10px;
   margin-bottom: 5rem;
   padding: 3rem 2rem;
