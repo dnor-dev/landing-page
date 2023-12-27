@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import presaleimg from "@/assets/img/banner/pres-image.svg"
+import presaleimg from "@/assets/img/banner/pres-image.svg";
 
 const SpunkySale = () => {
   const [isCopied, setIsCopied] = useState(false);
@@ -17,7 +17,7 @@ const SpunkySale = () => {
       <section className="spunky_sale">
         <div className="first-section">
           <p>SSDX Coin</p>
-          <h2>Spunky Sale</h2>
+          <h2>Spunky Presale</h2>
           <p>
             SpunkySDX leverages advanced AI technology to actively track and
             monitor stolen asset on the EVM chain.
@@ -43,8 +43,7 @@ const SpunkySale = () => {
         </div>
 
         <div className="second-section">
-
-        <Image src={presaleimg} alt="" className="alltuchtopdown" />
+          <Image src={presaleimg} alt="" className="alltuchtopdown" />
           {/* <h6>
             PRE-SALE <span className="primary-color pl-5">SPUNKY</span>SDX
           </h6>

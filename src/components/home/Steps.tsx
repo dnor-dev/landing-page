@@ -5,40 +5,41 @@ interface DataType {
   title: JSX.Element;
   desc: JSX.Element;
   img: JSX.Element;
+  showBtn: boolean;
 }
 const steps_data: DataType[] = [
   {
     id: 1,
     title: <>Create Account</>,
     desc: (
-      <>
-        Visit our website and set up and account with your email and password or
-        connect your wallet.
-      </>
+      <>Visit our website and set up an account with your email and password.</>
     ),
     img: <i className="fa-solid fa-plus feat-icon"></i>,
+    showBtn: true,
   },
   {
     id: 2,
     title: <>Buy SSDX Token</>,
     desc: (
       <>
-        Visit any supported cryptocurrency exchange platform, set up and
-        account, deposit and buy SSDX
+        Visit any supported cryptocurrency exchange platform, set up an account,
+        deposit USDT (Bep20, Arb, Erc20) and buy SSDX
       </>
     ),
     img: <i className="fa-solid fa-money-bill feat-icon"></i>,
+    showBtn: false,
   },
   {
     id: 3,
     title: <>Stake Token</>,
     desc: (
       <>
-        Connect your cryptocurrency wallet to spunkysdx, select your preferred
+        Connect your cryptocurrency wallet to SpunkySDX, select your preferred
         staking plan and start staking
       </>
     ),
     img: <i className="fa-solid fa-cart-shopping feat-icon"></i>,
+    showBtn: true,
   },
 ];
 
@@ -62,9 +63,11 @@ const Steps = () => {
                   {step.img}
                   <h6>{step.title}</h6>
                   <p>{step.desc}</p>
-                  <button>
-                    Get started <i className="fa-solid fa-chevron-right"></i>
-                  </button>
+                  {step.showBtn && (
+                    <button>
+                      Get started <i className="fa-solid fa-chevron-right"></i>
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

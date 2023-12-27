@@ -190,6 +190,14 @@ h6 {
   margin: 0px;
   padding: 0px;
 }
+
+@media (max-width: 800px) {
+  .banner-content .list-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .list-wrap li {
   list-style: none;
 }
@@ -952,7 +960,6 @@ label {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  margin: 20px;
 }
 .banner-bg::before {
   content: "";
@@ -1587,8 +1594,8 @@ h2 {
   width: fit-content;
 }
 
-.designedby p{
- font-size: small;
+.designedby p {
+  font-size: small;
 }
 .text-lg {
   font-size: 20px;
@@ -2091,7 +2098,7 @@ h6 {
   background: var(--tg-secondary-color);
   border-radius: 15px;
   padding: 75px 50px 65px;
-  height: 350px;
+  height: 400px;
 }
 .roadmap-content .title {
   display: flex;
@@ -2145,6 +2152,12 @@ h6 {
 }
 .roadMap-active .col-lg-4 {
   padding: 0 15px;
+}
+
+@media (max-width: 800px) {
+  .roadmap-content {
+    height: auto;
+  }
 }
 
 /*=============================
@@ -3280,7 +3293,7 @@ h6 {
   border-radius: 20px 20px 0 0;
   position: relative;
   padding: 250px 0 0;
-  margin: -350px 20px 0;
+  margin: -350px 0px 0;
   overflow: hidden;
 }
 .footer-bg::before {
@@ -3784,4 +3797,14 @@ p.form_error {
   font-size: 15px;
   color: var(--tg-primary-color);
   display: inline-block;
+}
+
+.coming-soon {
+  padding-block: 10rem 30rem;
+}
+
+@media (max-width: 800px) {
+  .coming-soon {
+    padding-block: 60rem !important;
+  }
 }

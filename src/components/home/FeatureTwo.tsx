@@ -29,7 +29,7 @@ const feature_data: DataType[] = [
   {
     id: 2,
     title: "Aggregator",
-    desc: "Stay informed with the current happeningwith spunkySDX news. We provide accurate insight on crypto market trends",
+    desc: "Stay informed with the current happening with SpunkySDX news. We provide accurate insight on crypto market trends",
     img: <i className="feat-icon fa-solid fa-clipboard"></i>,
     coming_soon: false,
   },
@@ -57,7 +57,7 @@ const feature_data: DataType[] = [
   {
     id: 6,
     title: "DEX",
-    desc: "Seamlessly trade different coins on spunkysdx",
+    desc: "Seamlessly trade different coins on SpunkySDX",
     img: <i className="feat-icon fa-solid fa-shield-halved"></i>,
     coming_soon: true,
   },
@@ -84,7 +84,9 @@ const FeatureTwo = () => {
         <div className="section-title text-center mb-20 mt-80">
           <h6>Our Features</h6>
           <h2 className="title">All you need is here</h2>
-          <p className="pt-10 text-lg">Experience an all-in-one crypto solution</p>
+          <p className="pt-10 text-lg">
+            Experience an all-in-one crypto solution
+          </p>
         </div>
       </div>
       <section

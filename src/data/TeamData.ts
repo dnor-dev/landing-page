@@ -40,8 +40,7 @@ const team_data: TeamDataType[] = [
     id: 3,
     img: teamImg_3,
     title: "Wilson Ifeanyi",
-    profession:
-      "Cybersecurity Specialist, Cloud Infrastructure/Security Expert, Project Management professional",
+    profession: "Cybersecurity Expert",
     desc: "Wilson Ifeanyi is a seasoned Cybersecurity Specialist, Cloud Infrastructure/Security expert, DevOps Engineer, and Project Management Professional.",
     linkedIn: "linkedin.com/in/wilson-okafor-205b78226",
     twitter: "",
@@ -60,7 +59,7 @@ const team_data: TeamDataType[] = [
     id: 5,
     img: teamImg_5,
     title: "Becco Eliacik",
-    profession: "Web3 Developer, Project Manager",
+    profession: "Web3 Developer",
     desc: "Becco’s is multi-talented and skilled in PHP Development, Web3 and dApp Development, Creative and Interactive Designs, and Project Management.",
     linkedIn:
       "Linkedin: https://www.linkedin.com/in/becco-eliacik-15019135?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZ90WL7yXQ4uwN3%2BlbIQClQ%3D%3D",

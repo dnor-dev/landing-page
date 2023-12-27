@@ -2,10 +2,10 @@
 import Image, { StaticImageData } from "next/image";
 import Slider from "react-slick";
 
-import brandImg_1 from "@/assets/img/brand/partner1.webp";
+// import brandImg_1 from "@/assets/img/brand/partner1.webp";
 import brandImg_2 from "@/assets/img/brand/partner2.webp";
 
-const brand_data: StaticImageData[] = [brandImg_1, brandImg_2];
+const brand_data: StaticImageData[] = [brandImg_2];
 
 const settings = {
   dots: false,
