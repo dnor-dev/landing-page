@@ -82,9 +82,7 @@ const Footer = () => {
                     also subject to capital gains tax.
                   </p>
 
-                  <p className="mt-10 pt-10">Designed by: &nbsp; 
-                <a href="https://mftech.com.ng" target="_blank">Mftech</a>
-              </p>
+                 
                 </div>
 
             
