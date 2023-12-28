@@ -40,7 +40,7 @@
 :root {
   --tg-body-font-family: "Outfit", sans-serif;
   --tg-heading-font-family: "Plus Jakarta Sans", sans-serif;
-  --tg-primary-color: rgba(253, 73, 92, 1);
+  --tg-primary-color: rgba(253, 73, 92, 0.8);
   --tg-secondary-color: #141214;
   --tg-body-font-color: #92939e;
   --tg-heading-font-color: #ffffff;
@@ -363,6 +363,9 @@ label {
 .scroll-top {
   width: 35px;
   height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   line-height: 35px;
   position: fixed;
   bottom: -10%;
@@ -2260,7 +2263,7 @@ h6 {
     top: 40px;
   }
   .read-more-btn {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
   }
 }
 

@@ -28,7 +28,7 @@ const Header = () => {
                     <div className="logo">
                       <Link href="/">
                         <img
-                          src="/assets/img/logo/spdx-logo.svg"
+                          src="/assets/img/logo/spdx-logo.png"
                           alt="Logo"
                           className="logo g-0"
                         />

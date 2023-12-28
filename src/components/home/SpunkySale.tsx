@@ -16,7 +16,7 @@ const SpunkySale = () => {
     <div className="container">
       <section className="spunky_sale">
         <div className="first-section">
-          <p>SSDX Coin</p>
+          <p>SSDX Token</p>
           <h2>Spunky Presale</h2>
           <p>
             SpunkySDX leverages advanced AI technology to actively track and

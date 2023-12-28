@@ -69,7 +69,7 @@ const team_data: TeamDataType[] = [
     id: 6,
     img: teamImg_6,
     title: "David Sanchez",
-    profession: "QA Tester and Entrepreneur",
+    profession: "QA Tester",
     desc: "David is a well-rounded individual who leverages his broad skill set to provide value in multiple areas: Entrepreneurship, Business Management, Customer Service and QA/App Testing.",
     linkedIn: "https://www.linkedin.com/in/david-s%C3%A1nchez-17b469167",
     twitter: "",
