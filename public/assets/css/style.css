@@ -1454,7 +1454,7 @@ label {
 	09. Features
 ===============================*/
 .section-title h6 {
-  color: var(--tg-primary-color);
+  color: rgb(255 255 255 / 80%);
 }
 
 .section-title .title {
