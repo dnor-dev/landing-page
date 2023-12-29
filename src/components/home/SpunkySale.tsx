@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import presaleimg from "@/assets/img/banner/pres-image.svg";
+import presaleimg from "@/assets/img/banner/pres-image.png";
 
 const SpunkySale = () => {
   const [isCopied, setIsCopied] = useState(false);
