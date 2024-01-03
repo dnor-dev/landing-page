@@ -43,7 +43,7 @@ const Header = () => {
                           <Link href="/">Login</Link>
                         </li> */}
                         <li className="header-signup">
-                          <Link href="https://dapp.spunkysdx.io/">
+                          <Link href="https://dapp.spunkysdx.io">
                             Launch App
                           </Link>
                         </li>

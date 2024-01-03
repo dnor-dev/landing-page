@@ -35,7 +35,7 @@ const SpunkySale = () => {
               ></i>
             )}
           </div> */}
-          <a href="https://presale.spunkysdx.io/" target="_blank">
+          <a href="https://presale.spunkysdx.io" target="_blank">
             <button>
               Buy SSDX <i className="fa-solid fa-chevron-right"></i>
             </button>

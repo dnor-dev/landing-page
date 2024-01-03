@@ -6,6 +6,7 @@ interface DataType {
   desc: JSX.Element;
   img: JSX.Element;
   showBtn: boolean;
+  link: string;
 }
 const steps_data: DataType[] = [
   {
@@ -16,6 +17,7 @@ const steps_data: DataType[] = [
     ),
     img: <i className="fa-solid fa-plus feat-icon"></i>,
     showBtn: true,
+    link: "https://dapp.spunkysdx.io",
   },
   {
     id: 2,
@@ -28,6 +30,7 @@ const steps_data: DataType[] = [
     ),
     img: <i className="fa-solid fa-money-bill feat-icon"></i>,
     showBtn: false,
+    link: "",
   },
   {
     id: 3,
@@ -40,6 +43,7 @@ const steps_data: DataType[] = [
     ),
     img: <i className="fa-solid fa-cart-shopping feat-icon"></i>,
     showBtn: true,
+    link: "https://dapp.spunkysdx.io",
   },
 ];
 
@@ -64,9 +68,12 @@ const Steps = () => {
                   <h6>{step.title}</h6>
                   <p>{step.desc}</p>
                   {step.showBtn && (
-                    <button>
-                      Get started <i className="fa-solid fa-chevron-right"></i>
-                    </button>
+                    <a href={step.link}>
+                      <button>
+                        Get started{" "}
+                        <i className="fa-solid fa-chevron-right"></i>
+                      </button>
+                    </a>
                   )}
                 </div>
               </div>
